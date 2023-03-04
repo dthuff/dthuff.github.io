@@ -7,8 +7,8 @@ tags:
   - Post Formats
   - readability
   - standard
-hidden: true
-published: false
+hidden: false
+published: true
 ---
 
 # Hardware
