@@ -16,11 +16,9 @@
 title: dthuff.github.io
 email: huffdanielt@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  Hi! I'm Daniel. This is my personal projects site.
+twitter_username: danielthuff
+github_username: dthuff
 minimal_mistakes_skin: dirt
 search: true
 
@@ -62,30 +60,36 @@ author:
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "Medical Physics PhD with 8+ years background in quantitative medical imaging. Experience with detection, segmentation, and classification problems."
   links:
-    - label: "Google Scholar"
-      icon: "fas fa-fw fa-link"
-      url: "https://scholar.google.com/citations?user=RHmVxscAAAAJ&hl=en"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/daniel-huff-231b79bb"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/danielthuff"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dthuff"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-link"
+      url: "https://scholar.google.com/citations?user=RHmVxscAAAAJ&hl=en"
     - label: "huffdanielt@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:huffdanielt@gmail.com"
 
 footer:
   links:
-    - label: "Google Scholar"
-      icon: "fas fa-fw fa-link"
-      url: "https://scholar.google.com/citations?user=RHmVxscAAAAJ&hl=en"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/daniel-huff-231b79bb"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/danielthuff"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dthuff"
+    - label: "Google Scholar"
+      icon: "fas fa-fw fa-link"
+      url: "https://scholar.google.com/citations?user=RHmVxscAAAAJ&hl=en"
     - label: "huffdanielt@gmail.com"
       icon: "fas fa-fw fa-envelope-square"
       url: "mailto:huffdanielt@gmail.com"
