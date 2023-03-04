@@ -10,6 +10,12 @@ hidden: false
 published: true
 ---
 
+Machine learning, and deep learning in particular, can impose some hefty computation requirements, whcih can be a barrier for getting started. There are a lot of great cloud-based workarounds, but maybe you just wanna hear those fans spin up under your desk, ya know?
+
+I have had success running DL models locally on a PC I built primarily for gaming. I still play games occasionally, but now my GPU mostly spends it's days computing convolutions.
+
+
+
 # Hardware
 
 I built my current pc in 2014, and it's starting to show it's age a bit. I upgraded the GPU in 2018-ish. I also did the RAM and added a second SSD at some point.
@@ -24,6 +30,8 @@ For deep learning projects, the key features here are the amount of VRAM on my G
 
 When I rebuild, I'd go for a much bigger card, if only [3090Ti prices](https://pcpartpicker.com/products/video-card/#c=520) would ever come down :(
 
+
+
 # OS
 
 For DL projects, I run Ubuntu 22.04, which I dual-boot alongside windows 10. 
@@ -35,6 +43,8 @@ The only key set up step was to **check a box for "download 3rd party drivers du
 Pictured: a happy nvidia-smi directly after ubuntu install, complete with CUDA!
 
 ![Image: a happy nvidia-smi directly after ubuntu install](/assets/images/nvidia-smi.png)
+
+
 
 # Software
 
