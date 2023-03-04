@@ -72,7 +72,7 @@ author:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dthuff"
     - label: "huffdanielt@gmail.com"
-      icon: "fab fa-fw fa-envelope"
+      icon: "fas fa-fw fa-envelope-square"
       url: "mailto:huffdanielt@gmail.com"
 
 footer:
@@ -87,7 +87,7 @@ footer:
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dthuff"
     - label: "huffdanielt@gmail.com"
-      icon: "fab fa-fw fa-envelope"
+      icon: "fas fa-fw fa-envelope-square"
       url: "mailto:huffdanielt@gmail.com"
 
 defaults:
