@@ -10,15 +10,15 @@ hidden: false
 published: true
 ---
 
-Machine learning, and deep learning in particular, can impose some hefty computation requirements, which can be a barrier for getting started. There are a lot of great cloud-based workarounds, but maybe you just wanna hear those fans spin up under your desk, ya know?
+Machine learning, and deep learning in particular, can impose some hefty computational requirements which can be a barrier for getting started. There are a lot of great cloud-based workarounds, but maybe you just wanna hear those fans spin up under your own desk, ya know?
 
-I have had success running DL models locally on a PC I built primarily for gaming. I still play games occasionally, but now my GPU mostly spends it's days computing convolutions.
+I have had success running DL models locally on a PC I built primarily for gaming with no hardware changes. I still play games occasionally, but now my GPU mostly spends it's days computing convolutions.
 
 
 
 # Hardware
 
-I built my current pc in 2014, and it's starting to show it's age a bit. I upgraded the GPU in 2018-ish. I also did the RAM and added a second SSD at some point.
+I built my current pc in 2014, and it is starting to show its age a bit. I upgraded the GPU in 2018-ish. I also did the RAM and added a second SSD at some point.
 
 CPU: Intel 4690K @ 3.5 GHz  
 GPU: NVIDIA GeFORCE GTX 1080 (8 GB)  
@@ -38,10 +38,9 @@ For DL projects, I run Ubuntu 22.04, which I dual-boot alongside windows 10.
 
 I set this up by downloading the [ubuntu iso](https://releases.ubuntu.com/jammy/) and flashing it to a thumb drive using [Balena Etcher](https://www.balena.io/etcher). This was my first time installing a linux distribution, and it went pretty smoothly. 
 
-The only key set up step was to **check a box for "download 3rd party drivers during installation"**. This got me the nvidia graphics drivers on install, avoiding any [big headaches](https://askubuntu.com/questions/1129516/black-screen-at-boot-after-nvidia-driver-installation-on-ubuntu-18-04-2-lts)
+The only key set up step was to **check a box for "download 3rd party drivers during installation"**. This got me the nvidia graphics drivers on install, avoiding any [big headaches](https://askubuntu.com/questions/1129516/black-screen-at-boot-after-nvidia-driver-installation-on-ubuntu-18-04-2-lts).
 
 Pictured: a happy nvidia-smi directly after ubuntu install, complete with CUDA!
-
 ![Image: a happy nvidia-smi directly after ubuntu install](/assets/images/nvidia-smi.png)
 
 
