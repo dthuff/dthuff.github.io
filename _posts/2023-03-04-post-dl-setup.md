@@ -1,19 +1,18 @@
 ---
-title: "My at-home Deep Learning setup"
+title: "My at-home deep learning setup - March 2023"
 excerpt_separator: "<!--more-->"
 categories:
   - Blog
 tags:
-  - Post Formats
-  - readability
-  - standard
+  - hardware
+  - deep-learning
 hidden: false
 published: true
 ---
 
 # Hardware
 
-I built my current pc in 2014, and it's starting to show it's age a bit. GPU was upgraded in 2018-ish. I also did the RAM and added a second SSD at some point.
+I built my current pc in 2014, and it's starting to show it's age a bit. I upgraded the GPU in 2018-ish. I also did the RAM and added a second SSD at some point.
 
 CPU: Intel 4690K @ 3.5 GHz  
 GPU: NVIDIA GeFORCE GTX 1080 (8 GB)  
@@ -31,15 +30,18 @@ For DL projects, I run Ubuntu 22.04, which I dual-boot alongside windows 10.
 
 I set this up by downloading the [ubuntu iso](https://releases.ubuntu.com/jammy/) and flashing it to a thumb drive using [Balena Etcher](https://www.balena.io/etcher). This was my first time installing a linux distribution, and it went pretty smoothly. 
 
-The only key set up step was to check a box for "download 3rd party drivers during installation". This got me the nvidia graphics drivers on install, avoiding any [big headaches](https://askubuntu.com/questions/1129516/black-screen-at-boot-after-nvidia-driver-installation-on-ubuntu-18-04-2-lts)
+The only key set up step was to **check a box for "download 3rd party drivers during installation"**. This got me the nvidia graphics drivers on install, avoiding any [big headaches](https://askubuntu.com/questions/1129516/black-screen-at-boot-after-nvidia-driver-installation-on-ubuntu-18-04-2-lts)
 
-Image: a happy nvidia-smi directly after ubuntu install
+Pictured: a happy nvidia-smi directly after ubuntu install, complete with CUDA!
+
 ![Image: a happy nvidia-smi directly after ubuntu install](/assets/images/nvidia-smi.png)
 
 # Software
 
 I mostly write python which I manage using [Anaconda](https://www.anaconda.com/products/distribution).
 
-The deep learning framework I have most experience with is [pytorch](https://pytorch.org/).
+The deep learning framework I have most experience with is [pytorch](https://pytorch.org/). I currently use pytorch1.13.
+
+For other packages/versions, check the [requirements.txt](https://github.com/dthuff/pet-vae/blob/master/requirements.txt) in one of my project repos.
 
 Specific to medical imaging, I like using [3DSlicer](https://www.slicer.org/) for viewing and editing 3D images.
