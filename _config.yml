@@ -71,6 +71,9 @@ author:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dthuff"
+    - label: "huffdanielt@gmail.com"
+      icon: "fab fa-fw fa-envelope"
+      url: "mailto:huffdanielt@gmail.com"
 
 footer:
   links:
@@ -83,6 +86,9 @@ footer:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/dthuff"
+    - label: "huffdanielt@gmail.com"
+      icon: "fab fa-fw fa-envelope"
+      url: "mailto:huffdanielt@gmail.com"
 
 defaults:
   # _posts
