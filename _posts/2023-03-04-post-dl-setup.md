@@ -10,7 +10,7 @@ hidden: false
 published: true
 ---
 
-Machine learning, and deep learning in particular, can impose some hefty computation requirements, whcih can be a barrier for getting started. There are a lot of great cloud-based workarounds, but maybe you just wanna hear those fans spin up under your desk, ya know?
+Machine learning, and deep learning in particular, can impose some hefty computation requirements, which can be a barrier for getting started. There are a lot of great cloud-based workarounds, but maybe you just wanna hear those fans spin up under your desk, ya know?
 
 I have had success running DL models locally on a PC I built primarily for gaming. I still play games occasionally, but now my GPU mostly spends it's days computing convolutions.
 
